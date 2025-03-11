@@ -9,23 +9,35 @@ header {
     background-color: #333;
     color: #fff;
     padding: 1rem 0;
-    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 header .logo {
     max-width: 100px;
     height: auto;
-    display: block;
-    margin: 0 auto 1rem;
+}
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 1rem;
 }
 
