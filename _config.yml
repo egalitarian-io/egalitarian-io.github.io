@@ -1,9 +1,9 @@
-title: My Jekyll Site
+title: Egalitarian
 description: >- # this means to ignore newlines until "baseurl:"
-  A simple Jekyll site for GitHub Pages.
+  The Egalitarian Project
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" # the base hostname & protocol for your site
+url: "https://egalitarian-io.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-theme: modernist
+theme: minimal-mistakes

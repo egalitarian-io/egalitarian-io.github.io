@@ -3,6 +3,6 @@ layout: home
 title: Welcome
 ---
 
-# Welcome to My Jekyll Site
+# Welcome to Egalitarian
 
-This is a simple Jekyll site created for demonstration purposes.
+Welcome! This is the Egalitarian Project.
