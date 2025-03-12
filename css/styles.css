@@ -9,6 +9,7 @@ header {
     background-color: #333;
     color: #fff;
     padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .header-content {
@@ -28,6 +29,7 @@ header .logo {
 header h1 {
     flex-grow: 1;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 nav ul {
@@ -44,14 +46,23 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #1da1f2;
 }
 
 main {
-    padding: 1rem;
+    padding: 2rem 1rem;
 }
 
 section {
     margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -62,6 +73,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .footer-content {
@@ -75,6 +87,7 @@ footer {
     color: #fff;
     margin-left: 1rem;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 .social-links a:hover {
